@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>HTML forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+<form>
+    <div>
+    <label for="name">First name:</label>
+    <input id="name" type="text" name="name" placeholder="Insert Your Full Name Here"/>
+    </div>
+    <div>
+    <label for="email">Email:</label>
+    <input id="email" type="text" name="email" placeholder="Please Enter Your Email"/>
+    </div>
+    <div>
+        <label for="form-message">Your message:</label>
+    </div>
+    <div>
+    <textarea
+      id="form-message"
+      name="message"
+      autofocus="on"
+      required
+      maxlength="200"
+    ></textarea>
+    </div>
+    <div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </div>
+  </form>
+    </main>
+  </body>
+</html>
